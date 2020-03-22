@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Musical Canon Quiz</title>
+  <meta name="description" type="A quiz app about the musical device, Canon ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://db.onlinewebfonts.com/c/05289e866fe7e1e99d27a7a31f8d3b66?family=Trattatello" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>
+  <main role="main" class="container">
+    <header role="banner" class="header">
+      <section>
+        <a href="index.html">
+          <img class="neumesBanner" src="images/top.png" alt="Illumination and Plainchant Notation" />
+        </a>
+      </section>
+      <section>
+        <ul>
+          <li class="sizeMe">Question:
+            <span class="questionNumber">0</span>/5</li>
+          <li class="sizeMe">Score:
+            <span class="score">0</span>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <section role="region" class="gargoyleBox">
+      <section class="startQuiz box">
+        <h1>How much do you know about the musical device, Canon?</h1>
+        <img src="./images/read.jpg" alt="flying horse illumination" class="images">
+        <button type="button" class="startButton button">Start</button>
+      </section>
+      <section class="questionBox box altBox">
+      </section>
+      <section class="response box altBox"></section>
+      <section class="final box altBox"></section>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
